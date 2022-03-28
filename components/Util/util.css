@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Gabriela&family=Henny+Penny&family=Megrim&family=Original+Surfer&family=Pacifico&family=Sofia&family=Twinkle+Star&family=Varela+Round&display=swap');
+
+*,
+:after,
+:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* --lt-pink: #fee1e1; */
+    --lt-pink: #fde8e8;
+    /* --dk-pink: #f8485e; */
+    --dk-secondary-pink: #f8485e;
+    --dk-pink: #c81e1e;
+    --lt-red: #fff2f0;
+    /* --lt-yellow: #fef3c8; */
+    --lt-yellow: #fdf6b2;
+    --dk-yellow-star-ratings: #fbbf24;
+    --dk-yellow: #8e4b10;
+    --dk-yelloww: #8e4b10;
+    --lt-brown: #eedcbd;
+    /* --lt-blue: #e1f3fe; */
+    --lt-blue: #e1effe;
+    /* --dk-blue: #0895ec; */
+    --dk-blue: #1a56db;
+
+    /* --lt-green: #defce9; */
+    --lt-green: #def7ec;
+    /* --dk-green: #17c757e7; */
+    --dk-green: #046c4e;
+    --md-green: #93aa80;
+
+    --lt-violet: #f0f1ff;
+
+    --primary-color: #0978d3;
+    --secondary-color: #7A0BC0;
+    --tertiary-color: #D22779;
+
+    --grey-color: #9ca3af;
+
+    --white-color: #ffffff;
+    --primary-box-shadow: 8px 8px 16px #dfe7ed, -8px -8px 16px #ffffff;
+
+    --body-color: #fff131;
+
+
+
+
+}
+
+body {
+    font-family: "Varela Round", sans-serif;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.secondary-txt-showcase {
+    margin: 1rem 0;
+}
+
+.green {
+    background-color: var(--dk-green);
+    color: var(--lt-green);
+}
+
+.sec-green {
+    border: 2px solid var(--dk-green);
+    color: var(--dk-green);
+    background-color: var(--lt-green);
+}
+
+.tri-green {
+    border: 2px solid var(--dk-green);
+    background-color: var(--white-color);
+    color: var(--dk-green);
+}
+
+.pink {
+    background-color: var(--dk-pink);
+    color: var(--lt-pink);
+}
+
+.sec-pink {
+    background-color: var(--lt-pink);
+    color: var(--dk-pink);
+    border: 2px solid var(--dk-pink);
+}
+
+.tri-pink {
+    background-color: var(--white-color);
+    color: var(--dk-pink);
+    border: 2px solid var(--dk-pink);
+}
+
+.blue {
+    background-color: var(--dk-blue);
+    color: var(--lt-blue);
+
+}
+
+.sec-blue {
+    color: var(--dk-blue);
+    background-color: var(--lt-blue);
+    border: 2px solid var(--dk-blue);
+}
+
+.tri-blue {
+    color: var(--dk-blue);
+    background-color: var(--white-color);
+    border: 2px solid var(--dk-blue)
+}
+
+.yellow {
+    background-color: var(--dk-yellow);
+    color: var(--lt-yellow);
+
+}
+
+.floating-act {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.sec-pink {
+    background-color: var(--lt-pink);
+    color: var(--dk-pink);
+    border: 2px solid var(--dk-pink)
+}
+
+.sec-blue {
+    background-color: var(--lt-blue);
+    color: var(--dk-blue);
+    border: 2px solid var(--dk-blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.secondary {
+    color: var(--primary-color);
+    background-color: var(--lt-yellow);
+    border: 2px solid var(--dk-yellow-star-ratings);
+}
+
+.secondary-border-none {
+    border: none;
+}
+
+.primary {
+    background-color: var(--dk-yellow-star-ratings);
+    color: var(--white-color);
+}
