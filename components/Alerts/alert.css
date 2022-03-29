@@ -5,7 +5,7 @@
     padding: 1rem;
     max-width: fit-content;
     border-radius: 0.6rem;
-    box-shadow: var(--primary-box-shadow);
+    /* box-shadow: var(--primary-box-shadow); */
 }
 
 .al-error {
@@ -13,7 +13,7 @@
     /* var(--lt-pin); */
     color: var(--dk-pink);
     /* var(--dk-pink); */
-    border: 0.1px solid var(--dk-pink);
+    /* border: 0.1px solid var(--dk-pink); */
 }
 
 .al-warning {
@@ -21,7 +21,7 @@
     /* var(--lt-pin); */
     color: var(--dk-yellow);
     /* var(--dk-pink); */
-    border: 0.1px solid var(--dk-yellow);
+    /* border: 0.1px solid var(--dk-yellow); */
 }
 
 .al-info {
@@ -29,7 +29,7 @@
     /* var(--lt-pin); */
     color: var(--dk-blue);
     /* var(--dk-pink); */
-    border: 0.1px solid var(--dk-blue);
+    /* border: 0.1px solid var(--dk-blue); */
 }
 
 .al-success {
@@ -37,5 +37,5 @@
     /* var(--lt-pin); */
     color: var(--dk-green);
     /* var(--dk-pink); */
-    border: 0.1px solid var(--dk-green);
+    /* border: 0.1px solid var(--dk-green); */
 }

@@ -2,7 +2,7 @@
     padding: 1rem;
     max-width: fit-content;
     border-radius: 0.6rem;
-    box-shadow: var(--primary-box-shadow);
+    /* box-shadow: var(--primary-box-shadow); */
 }
 
 .tl-error {
@@ -41,5 +41,5 @@
     max-width: 500px;
     padding: 1rem;
     border-radius: 0.5rem;
-    box-shadow: var(--primary-box-shadow);
+    /* box-shadow: var(--primary-box-shadow); */
 }

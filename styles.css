@@ -30,14 +30,15 @@ body>nav {
     top: 0;
     left: 0;
     padding: 1.3rem 1rem 0 2rem;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #fff2f0;
 }
 
 body>main {
     grid-area: main;
     border-radius: 1.5rem 0 0 0;
     padding: 2rem 10% 0;
-    background-color: var(--lt-violet);
+    background-color: var(--lt-coral);
 }
 
 .sections {
@@ -84,7 +85,7 @@ body>main {
 .logo-txt {
     font-size: xx-large;
     font-weight: 400;
-    color: var(--dk-yellow-star-ratings);
+    color: var(--md-green);
     font-family: "Varela Round", sans-serif;
 }
 
@@ -97,14 +98,13 @@ body>main {
 }
 
 .comp-nav ul li {
-    padding: 0.2rem;
+    padding: 0.08rem;
 }
 
 .comp-nav ul li:hover {
-    padding: 0.5rem;
-    background-color: var(--body-color);
+    padding: 0.25rem;
+    background-color: var(--dk-red);
     border-radius: 0.5rem;
-    margin: 1rem 0;
 }
 
 .comp-nav ul li a {
@@ -126,7 +126,6 @@ body>main {
     display: block;
     width: 0;
     height: 2px;
-    background: #183c3f;
     transition: width 0.3s;
 }
 
@@ -143,8 +142,10 @@ body>main {
     font-size: larger;
     position: relative;
     display: inline;
-    color: #000;
+    /* color: #000; */
+    color: var(--lt-choco);
     transition: all 0.3s linear;
+    font-weight: 800;
 }
 
 .header-navigation li a:hover:before {

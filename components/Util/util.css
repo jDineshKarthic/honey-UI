@@ -15,6 +15,7 @@
     --dk-secondary-pink: #f8485e;
     --dk-pink: #c81e1e;
     --lt-red: #fff2f0;
+    --dk-red: #e89382;
     /* --lt-yellow: #fef3c8; */
     --lt-yellow: #fdf6b2;
     --dk-yellow-star-ratings: #fbbf24;
@@ -32,7 +33,14 @@
     --dk-green: #046c4e;
     --md-green: #93aa80;
 
+    --lt-coral: #feffeb;
+
     --lt-violet: #f0f1ff;
+
+    --lt-choco: #9e7e83;
+
+    --lt-cream: #f0e0c4;
+
 
     --primary-color: #0978d3;
     --secondary-color: #7A0BC0;
@@ -53,6 +61,7 @@
 body {
     font-family: "Varela Round", sans-serif;
     font-family: 'Arima Madurai', cursive;
+    background-color: var(--lt-coral);
 }
 
 .secondary-txt-showcase {
